@@ -1,57 +1,57 @@
 @font-face {
     font-family: "Commissioner-Black";
-    src: url(/Assets/Fonts/Commissioner_Extracted/static/Commissioner-Black.ttf);
+    src: url(./Assets/Fonts/Commissioner_Extracted/static/Commissioner-Black.ttf);
 }
 
 @font-face {
     font-family: "Commissioner-Bold";
-    src: url(/Assets/Fonts/Commissioner_Extracted/static/Commissioner-Bold.ttf);
+    src: url(./Assets/Fonts/Commissioner_Extracted/static/Commissioner-Bold.ttf);
 }
 @font-face {
     font-family: "Commissioner-ExtraBold";
-    src: url(/Assets/Fonts/Commissioner_Extracted/static/Commissioner-ExtraBold.ttf);
+    src: url(./Assets/Fonts/Commissioner_Extracted/static/Commissioner-ExtraBold.ttf);
 }
 
 @font-face {
     font-family: "Commissioner-ExtraLight";
-    src: url(/Assets/Fonts/Commissioner_Extracted/static/Commissioner-ExtraLight.ttf);
+    src: url(./Assets/Fonts/Commissioner_Extracted/static/Commissioner-ExtraLight.ttf);
 }
 @font-face {
     font-family: "Commissioner-Light";
-    src: url(/Assets/Fonts/Commissioner_Extracted/static/Commissioner-Light.ttf);
+    src: url(./Assets/Fonts/Commissioner_Extracted/static/Commissioner-Light.ttf);
 }
 
 @font-face {
     font-family: "Commissioner-Medium";
-    src: url(/Assets/Fonts/Commissioner_Extracted/static/Commissioner-Medium.ttf);
+    src: url(./Assets/Fonts/Commissioner_Extracted/static/Commissioner-Medium.ttf);
 }
 
 @font-face {
     font-family: "Commissioner-Reguler";
-    src: url(/Assets/Fonts/Commissioner_Extracted/static/Commissioner-Regular.ttf);
+    src: url(./Assets/Fonts/Commissioner_Extracted/static/Commissioner-Regular.ttf);
 }
 @font-face {
     font-family: "Commissioner-SemiBold";
-    src: url(/Assets/Fonts/Commissioner_Extracted/static/Commissioner-SemiBold.ttf);
+    src: url(./Assets/Fonts/Commissioner_Extracted/static/Commissioner-SemiBold.ttf);
 }
 
 @font-face {
     font-family: "Commissioner-Thin";
-    src: url(/Assets/Fonts/Commissioner_Extracted/static/Commissioner-Thin.ttf);
+    src: url(./Assets/Fonts/Commissioner_Extracted/static/Commissioner-Thin.ttf);
 }
 
 @font-face {
     font-family: "Oxygen-Reguler";
-    src: url(/Assets/Fonts/Oxygen_Extracted/Oxygen-Regular.ttf);
+    src: url(./Assets/Fonts/Oxygen_Extracted/Oxygen-Regular.ttf);
 }
 @font-face {
     font-family: "Oxygen-Light";
-    src: url(/Assets/Fonts/Oxygen_Extracted/Oxygen-Light.ttf);
+    src: url(./Assets/Fonts/Oxygen_Extracted/Oxygen-Light.ttf);
 }
 
 @font-face {
     font-family: "Oxygen-Bold";
-    src: url(/Assets/Fonts/Oxygen_Extracted/Oxygen-Bold.ttf);
+    src: url(./Assets/Fonts/Oxygen_Extracted/Oxygen-Bold.ttf);
 }
 
 
@@ -142,7 +142,7 @@ a {
     width: 100%;
     height: calc(100vh - 60px);
     margin-top: 60px;
-    background-image: url(/Assets/images/Self_Photo3.png);
+    background-image: url(./Assets/images/Self_Photo3.png);
     background-size: 70vh;
     background-repeat: no-repeat;
     background-position: center;
