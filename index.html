@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/indexstyle.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li class="closebtn" onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#455838"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#about_me">About Me</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+        <ul>
+            <li class="logo"><a href="#">Stefanie's Portfolio</a></li>
+            <li class="hideOnMobile"><a href="#about_me">About Me</a></li>
+            <li class="hideOnMobile"><a href="#work">Projects</a></li>
+            <li class="hideOnMobile"><a href="#qualification">Qualification</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#455838"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="about_me">
+        <div class="main-intro">
+            <h1>Hello!<br>I'm Stefanie</h1>
+            <p>A Computer Science Student, Frontend Developer <br> & Video Editor in the Making.
+                I build, experiment, <br>and learn through every project.</p>
+                <a href="#work">My Projects</a>
+        </div>
+
+        <div class="main-quotes">
+            <h3>A Little About Me</h3>
+            <p>I'm a computer science student exploring <br> the creative side of technology.<br>
+                I enjoy building things for the web <br>and bringing ideas to life through video. <br>
+                <i>~ Based in Indonesia ~</i></p>
+
+            <h3>Things I'm Into</h3>
+            <p>1. Web Development <br>
+                2. Video Editing <br>
+                3. Creative Design <br>
+                4. Learning New Things</p>
+        </div>
+    </section>
+
+    <section class="projects" id="work">
+        <h2 data-heading="My Projects" class="section_title">Recent Works</h2>
+
+        <div class="work_filters">
+            <button type="button" class="work_item active-work" data-filter="all">
+                All
+            </button>
+            <button type="button" class="work_item" data-filter=".video">
+                Video Editing
+            </button>
+
+            <button type="button" class="work_item" data-filter=".designs">
+                Designs
+            </button>
+        </div>
+
+        <div class="work_container">
+            <div class="work_card mix video">
+                <div class="work_card-inner">
+                    <img src="/Assets/images/VideoEditing/UcapanBirthday1.webp" alt="ve1" class="work_img">
+                    <h3 class="work_title">Video Editing</h3>
+                    <span class="work_button">
+                        Demo
+                        <i class="fa-solid fa-arrow-right work_button-icon"></i>
+                    </span>
+                    <div class="portfolio_item-details">
+                        <h3 class="details_title">Birthday Tribute</h3>
+                        <p class="details_description">A heartfelt birthday video for my grandmother, edited with photos, music, and transitions.</p>
+                        <ul class="details_info">
+                            <li>Created - <span>24 Agustus 2026</span></li>
+                            <li>Type - <span>Personal Project</span></li>
+                            <li>Technologies - <span>CapCut, Canva</span></li>
+                            <li>Role - <span>Video Editor</span></li>
+                            <li>View - <span><a href="https://drive.google.com/file/d/1nc371Fpb2hkU07115Ei0B3IekkpD3xNV/view?usp=sharing" target="_blank">Link Google Drive</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="work_card mix video">
+                <div class="work_card-inner">
+                    <img src="/Assets/images/VideoEditing/UcapanBirthday2.webp" alt="ve2" class="work_img">
+                    <h3 class="work_title">Video Editing</h3>
+                    <span class="work_button">
+                        Demo
+                        <i class="fa-solid fa-arrow-right work_button-icon"></i>
+                    </span>
+                    <div class="portfolio_item-details">
+                        <h3 class="details_title">Birthday Tribute</h3>
+                        <p class="details_description">A family birthday tribute combining photos, music, and creative visual effects.</p>
+                        <ul class="details_info">
+                            <li>Created - <span>28 Agustus 2026</span></li>
+                            <li>Type - <span>Personal Project</span></li>
+                            <li>Technologies - <span>CapCut, Canva</span></li>
+                            <li>Role - <span>Video Editor</span></li>
+                            <li>View - <span><a href="https://drive.google.com/file/d/1tPVWz5IZUnbB4fSB096klXncZrB5Ojvv/view?usp=sharing" target="_blank">Link Google Drive</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="work_card mix designs">
+                <div class="work_card-inner">
+                    <img src="/Assets/images/Designs/Figma1.webp" alt="figma1" class="work_img">
+                    <h3 class="work_title">Designs</h3>
+                    <span class="work_button">
+                        Demo
+                        <i class="fa-solid fa-arrow-right work_button-icon"></i>
+                    </span>
+                    <div class="portfolio_item-details">
+                        <h3 class="details_title">GY'Oreal — Web Design</h3>
+                        <p class="details_description">A beauty website concept designed in Figma with a focus on elegant visuals and user-friendly navigation.</p>
+                        <ul class="details_info">
+                            <li>Created - <span>2 Mei 2026</span></li>
+                            <li>Type - <span>College Project</span></li>
+                            <li>Technologies - <span>Figma, Pinterest</span></li>
+                            <li>Role - <span>UI Designer</span></li>
+                            <li>View - <span><a href="https://drive.google.com/file/d/1uSY4BA-ta4AULb26Z-5aF7zqcnxwW0e8/view?usp=sharing" target="_blank">Link Dokumentasi</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work_card mix designs">
+                <div class="work_card-inner">
+                    <img src="/Assets/images/Designs/Web1.webp" alt="web1" class="work_img">
+                    <h3 class="work_title">Designs</h3>
+                    <span class="work_button">
+                        Demo
+                        <i class="fa-solid fa-arrow-right work_button-icon"></i>
+                    </span>
+                    <div class="portfolio_item-details">
+                        <h3 class="details_title">GY'Oreal — Beauty Website</h3>
+                        <p class="details_description">A beauty website designed in Figma and developed into a responsive web interface.</p>
+                        <ul class="details_info">
+                            <li>Created - <span>10 Mei 2026</span></li>
+                            <li>Type - <span>College Projects</span></li>
+                            <li>Technologies - <span>HTML,CSS,javascript, Pinterest</span></li>
+                            <li>Role - <span>Frontend Developer</span></li>
+                            <li>View - <span><a href="https://stefely.github.io/GYOreal/" target="_blank">Live Website</a></span></li>
+                            <li>Source - <span><a href="https://github.com/StefEly/GYOreal" target="_blank">GitHub Repository</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work_card mix designs">
+                <div class="work_card-inner">
+                    <img src="/Assets/images/Designs/Figma2.png" alt="web1" class="work_img">
+                    <h3 class="work_title">Designs</h3>
+                    <span class="work_button">
+                        Demo
+                        <i class="fa-solid fa-arrow-right work_button-icon"></i>
+                    </span>
+                    <div class="portfolio_item-details">
+                        <h3 class="details_title">Nomi — Food Allergy Scanner App</h3>
+                        <p class="details_description">A mobile application concept designed to help users identify potential food allergens, understand food ingredients, and discover safer food alternatives.</p>
+                        <ul class="details_info">
+                            <li>Created - <span>2026</span></li>
+                            <li>Type - <span>College Projects</span></li>
+                            <li>Technologies - <span>Figma, Pinterest</span></li>
+                            <li>Role - <span>UI/UX Designer</span></li>
+                            <li>View - <span><a href="https://drive.google.com/file/d/1Sn3kNfIdZG938bgtKfD3pJT4ZB4XHXYo/view?usp=sharing" target="_blank">Link Dokumentasi</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work_card mix designs">
+                <div class="work_card-inner">
+                    <img src="/Assets/images/Designs/Figma3.png" alt="web1" class="work_img">
+                    <h3 class="work_title">Designs</h3>
+                    <span class="work_button">
+                        Demo
+                        <i class="fa-solid fa-arrow-right work_button-icon"></i>
+                    </span>
+                    <div class="portfolio_item-details">
+                        <h3 class="details_title">Chatterz — Language Learning App</h3>
+                        <p class="details_description">A language learning application concept featuring AI-powered communication, daily learning streaks, video calls, and progress tracking.</p>
+                        <ul class="details_info">
+                            <li>Created - <span>2026</span></li>
+                            <li>Type - <span>College Projects</span></li>
+                            <li>Technologies - <span>Figma, Pinterest</span></li>
+                            <li>Role - <span>UI/UX Designer</span></li>
+                            <li>View - <span><a href="https://drive.google.com/file/d/1rZ4DWTpUlswIi4NLYJgBeR-JhCsD98Cb/view?usp=drivesdk" target="_blank">Link Dokumentasi</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>            
+            
+        </div>
+    </section>
+
+    <div class="portfolio_popup">
+        <div class="portfolio_popup-inner">
+            <div class="portfolio_popup-content grid">
+                <span class="portfolio_popup-close">
+                    <i class="fa-solid fa-x"></i>
+                </span>
+                <div class="pp_thumbnail">
+                    <img src="/Assets/images/VideoEditing/UcapanBirthday1.webp" alt="" class="portfolio_popup-img">
+                </div>
+                <div class="portfolio_popup-info">
+                    <div class="portfolio_popup-subtitle">
+                        Featured - <span>Design</span>
+                    </div>
+                    <div class="portfolio_popup-body">
+                        <h3 class="details_title">Birthday Tribute</h3>
+                        <p class="details_description">A heartfelt birthday video for my grandmother, edited with photos, music, and transitions.</p>
+                        <ul class="details_info">
+                            <li>Created - <span>24 Agustus 2026</span></li>
+                            <li>Type - <span>Personal Project</span></li>
+                            <li>Technologies - <span>CapCut, Canva</span></li>
+                            <li>Role - <span>Video Editor</span></li>
+                            <li>View - <span><a href="#">Link Google Drive</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="qualification section" id="qualification">
+
+        <span class="section-subtitle">My Journey</span>
+        <h2 class="section-title">Qualification</h2>
+
+        <div class="qualification-container">
+
+            <!-- EDUCATION -->
+            <div class="qualification-content">
+
+                <h3 class="qualification-title">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Education
+                </h3>
+
+                <div class="qualification-timeline">
+
+                    <div class="qualification-item">
+                        <div class="qualification-marker"></div>
+
+                        <div class="qualification-info">
+                            <h4>Universitas Bina Nusantara</h4>
+                            <p>Bachelor in Computer Science (Ongoing)</p>
+
+                            <span class="qualification-date">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                2025 - Present
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="qualification-item">
+                        <div class="qualification-marker"></div>
+
+                        <div class="qualification-info">
+                            <h4>SMA Santo Ignasius Singkawang</h4>
+                            <p>Senior High School</p>
+
+                            <span class="qualification-date">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                2022 - 2025
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- MY SKILLS -->
+            <div class="qualification-content">
+
+                <h3 class="qualification-title">
+                    <i class="fa-solid fa-user"></i>
+                    My Skills
+                </h3>
+
+                <div class="qualification-timeline">
+
+                    <div class="qualification-item">
+                        <div class="qualification-marker"></div>
+
+                        <div class="qualification-info">
+                            <h4>UI/UX & Design</h4>
+                            <p>Figma, Wireframing & Prototyping, UI Design</p>
+                        </div>
+                    </div>
+
+                    <div class="qualification-item">
+                        <div class="qualification-marker"></div>
+
+                        <div class="qualification-info">
+                            <h4>Web Development</h4>
+                            <p>HTML, CSS, Bootstrap</p>
+                        </div>
+                    </div>
+
+                    <div class="qualification-item">
+                        <div class="qualification-marker"></div>
+
+                        <div class="qualification-info">
+                            <h4>Creative Tools</h4>
+                            <p>Canva, CapCut</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="FooterContainer">
+            <div class="socialIcons">
+                <a href="https://www.instagram.com/steff_elyy?igsi=MWJkaWo1a3UwOHFlag==" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/stefanie-elysia-65452a385?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=stefanieelysia@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://wa.me/628125758592" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+
+            <div class="footerNav">
+                <ul>
+                    <li><a href="#about_me">About Me</a></li>
+                    <li><a href="#work">My Projects</a></li>
+                    <li><a href="#qualification">My Qualifications</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="/js/mixitup.min.js"></script>
+    <script src="/javascript.js"></script>
+</body>
+</html>
