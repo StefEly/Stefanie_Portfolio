@@ -69,7 +69,11 @@ body{
 
 /*NavBar Section*/
 nav{
-    background-color: #F2F5EF;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(242, 245, 239, 0.8);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
