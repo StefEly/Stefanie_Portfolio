@@ -62,9 +62,10 @@ document.addEventListener('click', function(e) {
 
 /* Toggle Popup */
 function togglePortfolioPopup() {
-    document
-        .querySelector('.portfolio_popup')
-        .classList.toggle('open');
+    const popup = document.querySelector('.portfolio_popup');
+
+    popup.classList.toggle('open');
+    document.body.classList.toggle('popup-open');
 }
 
 
